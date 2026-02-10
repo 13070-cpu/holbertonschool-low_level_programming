@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-/* This code block prints the following text */
+/**
+* my_function - does my stuff
+* @my_arg: its mine damnit
+*
+* Does my stuff explained.
+*/ 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
