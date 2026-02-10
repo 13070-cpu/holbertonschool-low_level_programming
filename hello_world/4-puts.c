@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
 * main - does my stuff
-* 
+*
 * return 0.
-* 
+*
 */
 int main(void)
 {
