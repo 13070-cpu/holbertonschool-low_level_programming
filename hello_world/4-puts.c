@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-* my_function - does my stuff
-* @my_arg: its mine damnit
-*
-* Does my stuff explained.
+* main - does my stuff
+* 
+* return 0.
+* 
 */
 int main(void)
 {
