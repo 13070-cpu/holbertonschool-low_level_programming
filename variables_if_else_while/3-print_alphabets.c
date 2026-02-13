@@ -10,18 +10,18 @@
 
 int main(void)
 {
-	int n = 'A';
+	int n = 'a';
 
-	while (n <= 'Z')
+	while (n <= 'z')
 	{
 		putchar(n);
 		n++;
 	}
-	while (n >= 'Z' && n <= 96)
+	while (n >= 'B')
 	{
-		n++;
+		n--;
 	}
-	while (n >= 'a' && n <= 'z')
+	while (n <= 'Z')
 	{
 		putchar(n);
 		n++;
