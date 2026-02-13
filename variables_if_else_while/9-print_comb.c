@@ -10,17 +10,18 @@
 
 int main(void)
 {
-	int n = '0';
+	int n = 0;
 
-	while (n <= '9')
+	while (n <= 9)
 	{
-		putchar(n);
-		/* below is a comma */
-		putchar(44);
-		/* below is a space */
-		putchar(32);
+		putchar(n + '0');
+		if (n < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		n++;
 	}
-	putchar('\n');	
+	putchar('\n');
 	return (0);
 }
