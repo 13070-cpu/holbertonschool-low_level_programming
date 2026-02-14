@@ -1,16 +1,17 @@
 #include "main.h"
 
-int print_alphabet(void)
+/**
+ * main - this function prints out
+ * the print_alphabet function
+ * to print out 
+ * the entire alphabet
+ * on a single line 
+ *
+ * Return: 0.
+ */
+
+int main(void)
 {
-	int n = 'a';
-
-	while (n <= 'z')
-	{
-		_putchar(n);
-		n++;
-	}
-
-	_putchar('\n');
-
+	print_alphabet();
 	return (0);
-}	
+}

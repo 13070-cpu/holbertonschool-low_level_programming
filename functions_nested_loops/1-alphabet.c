@@ -1,16 +1,16 @@
 #include "main.h"
 
-/**
- * main - this program prints
- * out the entire alphabet
- * lowercase on 
- * a single line
- *
- * Return: 0.
- */
-
-int main(void)
+int print_alphabet(void)
 {
-	print_alphabet();
+	int n = 'a';
+
+	while (n <= 'z')
+	{
+		_putchar(n);
+		n++;
+	}
+
+	_putchar('\n');
+
 	return (0);
-}
+}	
