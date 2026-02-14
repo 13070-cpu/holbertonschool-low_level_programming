@@ -35,11 +35,10 @@ int print_alphabet_x10(void)
 {
 	int n = 0;
 
-	while (n <= 10)
+	while (n < 10)
 	{
 		print_alphabet();
 		n++;
 	}
-	
 	return (0);
 }
