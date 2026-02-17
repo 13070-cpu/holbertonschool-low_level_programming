@@ -28,9 +28,19 @@ int main(void)
 
 		else if ((number % 5) == 0)
 		{
-			printf("Buzz ");
-			continue;
-			number++;
+			if (number == 100)
+			{
+				printf("Buzz");
+				continue;
+				number++;
+			}
+
+			else
+			{
+				printf("Buzz ");
+				continue;
+				number++;
+			}
 		}
 		printf("%d ", number);
 	}
