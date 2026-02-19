@@ -16,10 +16,9 @@ void rev_string(char *s)
 	while (s[len] != '\0')
 	{
 		len++;
-		
 	}
 
-	right = len -1;
+	right = len - 1;
 
 	while (left < right)
 	{
