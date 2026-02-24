@@ -8,8 +8,11 @@
  */
 int main(void)
 {
-	char *str;
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
-	return (0);
+    char *s = "hello, world";
+    char *f = "oleh";
+    unsigned int n;
+
+    n = _strspn(s, f);
+    printf("%u\n", n);
+    return (0);
 }
